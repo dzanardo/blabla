@@ -44,7 +44,7 @@ pytest test_get_audio.py
 Then the return should be:
 
 ```
-test_get_audio.py ......                                                                                         [100%]
+test_get_audio.py ......                                                                 [100%]
 ```
 
 !!! Can been returned error 404 to any functions, if you do not still in VPN IHeart. !!!
