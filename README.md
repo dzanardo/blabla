@@ -19,19 +19,19 @@ A step by step series of examples that tell you have to get a development env ru
 
 Say what the step will be
 
-To install all requirements: 
+Install all requirements: 
 
 ```
 sudo pip3 install -r requirements.txt
 ```
 
-Run API standalone (werkzeug)
+Run API standalone (werkzeug):
 
 ```
 python3 app.py
 ```
 
-Or if you prefer to run API using gunicorn
+Or run API using gunicorn:
 
 ```
 gunicorn -b 127.0.0.1:8080 -b [::1]:8080 app:app
