@@ -61,7 +61,7 @@ test_get_audio.py ......                                                        
 
 ## Deployment
 
-To deploy the changes to environments use Jenkins.
+Use Jenkins to deploy changes
 
 :TODO LINK JENKINS:
 
