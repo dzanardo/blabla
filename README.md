@@ -28,11 +28,11 @@ sudo pip3 install boto3
 
 Create scripts/secret/widen.ini:
 
-´´´
+```
 [widen]
   url:                     https://gateway-stg.x1-nonprod.iheartmedia.com/mediaasset/media
   Authorization: 
-´´´
+```
 
 Now you can run the tests:
 
@@ -43,9 +43,9 @@ pytest test_get_audio.py
 
 Then the return should be:
 
-´´´
+```
 test_get_audio.py ......                                                                                         [100%]
-´´´
+```
 
 !!! Can been returned error 404 to any functions, if you do not still in VPN IHeart. !!!
 
