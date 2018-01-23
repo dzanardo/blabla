@@ -37,7 +37,7 @@ The tests use pytest 3.3.2.
 ### Some recommendations
 
 - tests must be in scripts folder
-- class name must start 'Test' to pytest identify
+- class name must start 'Test'
 
 ### Hands on
 
