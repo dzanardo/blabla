@@ -34,7 +34,7 @@ Create scripts/secret/widen.ini:
 
 ## Running the tests
 
-The tests use pytest 3.3.2. 
+The tests use pytest. 
 
 ### Some recommendations
 
