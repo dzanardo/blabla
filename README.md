@@ -59,7 +59,12 @@ test_get_audio.py ......                                                        
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+To deploy the changes to environments, you must use the Jenkins to do it.
+
+:TODO LINK JENKINS:
+
+Documentation of deployment strategy CI
+:TODO DOCUMENTATION CI (CAN BE A DIAGRAM THAT EXPLAIN THE PROCESS):
 
 ## Built With
 
