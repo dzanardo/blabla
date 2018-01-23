@@ -23,21 +23,31 @@ Install all requirements:
 
 ```
 sudo pip3 install -r requirements.txt
+sudo pip3 install boto3
 ```
 
-Run API standalone (werkzeug):
+Create scripts/secret/widen.ini:
+
+´´´
+[widen]
+  url:                     https://gateway-stg.x1-nonprod.iheartmedia.com/mediaasset/media
+  Authorization: 
+´´´
+
+Now you can run the tests:
 
 ```
-python3 app.py
+cd scripts
+pytest test_get_audio.py
 ```
 
-Or run API using gunicorn:
+Then the return should be:
 
-```
-gunicorn -b 127.0.0.1:8080 -b [::1]:8080 app:app
-```
+:TODO:
 
-End with an example of getting some data out of the system or using it for a little demo
+!!! Can been returned error 404 to any functions, if you do not still in VPN IHeart. !!!
+
+
 
 ## Running the tests
 
