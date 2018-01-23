@@ -25,13 +25,13 @@ To install all requirements:
 sudo pip3 install -r requirements.txt
 ```
 
-Then to run API standalone (werkzeug)
+Run API standalone (werkzeug)
 
 ```
 python3 app.py
 ```
 
-Or if you prefer run API using gunicorn
+Or if you prefer to run API using gunicorn
 
 ```
 gunicorn -b 127.0.0.1:8080 -b [::1]:8080 app:app
