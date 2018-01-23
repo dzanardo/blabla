@@ -2,7 +2,7 @@
 
 The Get Audio API provides lambda functions for integration systems.
 
-[The swagger with all endpoints](https://app.swaggerhub.com/apis/iheartmedia/mrmasterservice/1.0.0#/bms/getAudio)
+[The swagger with all endpoints.](https://app.swaggerhub.com/apis/iheartmedia/mrmasterservice/1.0.0#/bms/getAudio)
  
 
 ## Getting Started
@@ -38,8 +38,8 @@ The tests use pytest 3.3.2.
 
 ### Some recommendations
 
-- tests files must be in scripts folder
-- class name must start 'Test'
+- tests files must be in scripts folder.
+- class name must start 'Test'.
 
 ### Hands on
 
@@ -65,6 +65,6 @@ To deploy the changes to environments use Jenkins.
 
 :TODO LINK JENKINS:
 
-Documentation of deployment strategy CI
+Documentation of deployment strategy CI.
 
 :TODO DOCUMENTATION CI (CAN BE A DIAGRAM THAT EXPLAIN THE PROCESS):
