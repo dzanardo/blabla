@@ -22,7 +22,6 @@ Install all requirements:
 
 ```
 sudo pip3 install -r requirements.txt
-sudo pip3 install boto3
 ```
 
 Create scripts/secret/widen.ini:
