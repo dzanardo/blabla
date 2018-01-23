@@ -15,10 +15,6 @@ pip >= 3
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
 Install all requirements: 
 
 ```
@@ -34,7 +30,18 @@ Create scripts/secret/widen.ini:
   Authorization: 
 ```
 
-Now you can run the tests:
+## Running the tests
+
+The tests use pytest 3.3.2. 
+
+### Some recommendations
+
+- tests must be in scripts folder
+- class name must start 'Test' to pytest identify
+
+### Hands on
+
+Run the tests:
 
 ```
 cd scripts
@@ -49,27 +56,6 @@ test_get_audio.py ......                                                        
 
 !!! Can been returned error 404 to any functions, if you do not still in VPN IHeart. !!!
 
-
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
