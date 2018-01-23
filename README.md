@@ -1,4 +1,4 @@
-# Project Title
+# Get Audio API
 
 The Get Audio API provides lambda functions for integration systems.
 
