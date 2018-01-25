@@ -68,3 +68,4 @@ Use Jenkins to deploy changes
 Documentation of deployment strategy CI.
 
 :TODO DOCUMENTATION CI (CAN BE A DIAGRAM THAT EXPLAIN THE PROCESS):
+
