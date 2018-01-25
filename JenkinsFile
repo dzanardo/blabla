@@ -1,6 +1,0 @@
-#!/usr/bin/env groovy
-def jenkinsFile
-stage('JenkinsFile Blabla') {
-  echo("JenkinsFile Blabla")
-}
-
